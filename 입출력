@@ -2,5 +2,5 @@
 indata=input('점수입력:')
 indata=int(indata)
 indata*=10
-indata=str(indata)
+# indata=str(indata)
 print('사용자의 말:',indata)
