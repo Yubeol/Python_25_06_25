@@ -1,3 +1,3 @@
 #입출력
-indata=input('할말해:')
-print('사용자의 말:'+indata)
+indata=int(input('점수입력:'))
+print('사용자의 말:'+str(indata*10))
