@@ -1,5 +1,6 @@
 name = "Alice"
-age = 35
-print("[%-8s]은 [%03d]살입니다." % (name, age))# 왼쪽 정렬 숫자 앞에 (-) 기본은 오른쪽 정렬
-print("[%-8s]은 [%03d]살입니다." % ('Bob', 32))
-print('두사람의 나이 평균은 [%06.2f]살입니다.' % ((age+32)/2.))
+age = 30
+print("{}은 {}살입니다.".format(name, age))
+print("{0}은 {1}살입니다.".format(name, age))
+print("{1}은 {0}살입니다.".format(name, age))
+print(f"{name}은 {age}살입니다.") #f-string 가장 많이 사용함.
